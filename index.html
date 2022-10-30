@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>plus</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=PT+Mono&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="search-box" id="search-box">
+        <input
+          class="search-input"
+          id="search-inputText"
+          type="search"
+          placeholder="enter a city"
+        />
+        <button class="search-btn" id="search-btn" type="submit">🔍</button>
+        <button id="current-location">current</button>
+        <span class="current-day" id="current-date"></span>
+      </form>
+      <span class="current-city" id="current-city">Berlin</span>
+      <div class="degree">
+        <img src="src/images/weather.png" alt="partly sunny" />
+        <span class="weather">Partly Sunny</span>
+        <div class="units">
+          <span class="centigrade" id="celsius">17</span>
+          <span class="degree-unit"><a href="#" id="c-unit">°C</a></span>
+          <div class="weather-Info">
+            <ul>
+              <li>humidity: <span id="humidity">16</span>%</li>
+              <li>wind: <span id="wind">8 </span>km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <p class="card-day">saturday</p>
+            <span class="card-degree"> 20°C </span>
+            <img src="src/images/saturday.png" class="cards-img" alt="sunny" />
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <p class="card-day">sunday</p>
+            <span class="card-degree"> 17°C</span>
+            <img
+              src="src/images/sunday.png"
+              class="cards-img"
+              alt="partly sunny"
+            />
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <p class="card-day">monday</p>
+            <span class="card-degree"> 17°C </span>
+            <img src="src/images/saturday.png" class="cards-img" alt="sunny" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>

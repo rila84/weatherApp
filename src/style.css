@@ -1,0 +1,128 @@
+.container {
+  margin-top: 80px;
+  background-color: #66a8dc;
+  border-radius: 170px;
+  width: 500px;
+  height: 400px;
+}
+.search-box {
+  margin-left: 70px;
+  padding: 10px;
+}
+input.search-input {
+  margin-top: 40px;
+  background-color: #6daddd;
+  color: whitesmoke;
+  border: none;
+  padding: 5px;
+  width: 140px;
+  font-style: italic;
+  font-size: 14px;
+}
+input::placeholder {
+  color: rgb(244, 235, 235);
+}
+.search-btn {
+  color: whitesmoke;
+  margin-left: -30px;
+  margin-right: -5px;
+  background: transparent;
+  border: none;
+}
+#current-location {
+  background-color: #4c9cd9;
+  color: whitesmoke;
+  border: none;
+  margin-left: 5px;
+  padding: 4px 10px;
+  font-size: 14px;
+}
+.current-day {
+  color: white;
+  font-family: "Familjen Grotesk", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  margin-left: 50px;
+}
+.current-city {
+  padding: 5px;
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #ffd347;
+  color: #4c9cd9;
+  width: 100px;
+  text-align: center;
+  margin: 30px 190px 0 190px;
+  border-radius: 5px;
+}
+.degree {
+  padding-top: 15px;
+}
+img {
+  width: 40px;
+  display: block;
+  margin-left: 100px;
+  margin-top: -20px;
+}
+span.weather {
+  color: whitesmoke;
+  margin-left: 80px;
+}
+.units {
+  color: whitesmoke;
+  margin-left: 220px;
+  margin-top: -45px;
+  font-size: 30px;
+  font-family: "Familjen Grotesk", sans-serif;
+  display: block;
+}
+.degree-unit {
+  position: relative;
+  top: -10px;
+}
+.weather-Info {
+  font-size: 13px;
+  font-family: "Familjen Grotesk", sans-serif;
+  margin-left: 85px;
+  margin-top: -40px;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  font-size: small;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.row {
+  margin-top: 50px;
+  margin-left: 60px;
+  --bs-gutter-x: 0.2rem;
+}
+.col-sm-4 {
+  padding: 0;
+  margin-right: -15px;
+}
+.card {
+  background-color: #90b7f0;
+  color: whitesmoke;
+  width: 110px;
+  height: 70px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 5px 10px 0px #2a587b;
+  font-size: 14px;
+}
+.card-day {
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+.cards-img {
+  width: 30px;
+  margin: -25px 0 20px 20px;
+}
+.card-degree {
+  padding-left: 40px;
+}
