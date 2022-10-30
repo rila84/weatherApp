@@ -126,3 +126,12 @@ a {
 .card-degree {
   padding-left: 40px;
 }
+
+#source-code-part {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+#source-code {
+  color: rgb(34, 34, 139);
+}
